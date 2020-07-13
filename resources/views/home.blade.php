@@ -3,8 +3,8 @@
 @section('content')
 <!--Hero section-->
 
-<section id="hero">
-    <div class="jumbotron jumbotron-fluid">
+<section id="hero pt">
+    <div class="jumbotron jumbotron-fluid p-5 mt-0">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
