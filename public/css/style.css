@@ -1,0 +1,19 @@
+.jumbotron {
+    color: white;
+    background-color: #0066cc;
+    height: 100vh;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+#about {
+    height: 60vh;
+}
+
+#about p {
+    margin-top: 20%;
+}
