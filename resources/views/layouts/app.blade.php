@@ -53,10 +53,10 @@
                         @endif
                         @else
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="html/devices.html">Devices</a>
+                            <a class="nav-link js-scroll-trigger" href="{{ url('/devices') }}">Devices</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="html/sensors.html">Sensors</a>
+                            <a class="nav-link js-scroll-trigger" href="{{ url('/sensors') }}">Sensors</a>
                         </li>
                         <li class="nav-item">
 
@@ -65,7 +65,7 @@
                                 <i class="fa fa-sign-in" aria-hidden="true"></i> Profile
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="">Profile</a>
+                                <a class="dropdown-item" href="{{ url('/profile') }}">Profile</a>
                                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}

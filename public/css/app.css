@@ -10128,8 +10128,7 @@ p {
     margin-top: 20%;
 }
 
-.dropdown-menu {
-    min-width: 10px;
-    margin-top: 8px;
-    margin-left: 18px;
+.display-4 {
+    font-family: Verdana;
 }
+

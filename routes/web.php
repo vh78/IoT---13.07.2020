@@ -17,7 +17,9 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-Auth::routes();
+Route::get('/profile', function () {
+    return view('auth.profile');
+});
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -25,10 +27,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
+Route::get('/devices', 'DevicesController@index')->name('devices.index');
+Route::resource('/devices', 'DevicesController');
 
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/sensors', 'SensorsController@index')->name('sensors.index');
+Route::resource('/sensors', 'SensorsController');

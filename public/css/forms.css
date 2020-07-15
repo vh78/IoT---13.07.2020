@@ -1,0 +1,29 @@
+body {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.add-sensor {
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.add-device {
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.edit-profile {
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    color: white;
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    border-radius: 0.5rem;
+}

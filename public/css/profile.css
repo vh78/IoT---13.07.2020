@@ -1,0 +1,38 @@
+body {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.emp-profile {
+    border-radius: 0.5rem;
+    background: #fff;
+    border: 1px solid black;
+}
+
+.profile-img {
+    text-align: center;
+    margin-right: 90%;
+}
+
+.profile-tab label {
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile-tab p {
+    font-weight: 600;
+    color: #0062cc;
+}
+
+#edit {
+    margin-right: 20%;
+}
+
+.dropdown-menu {
+    min-width: 5px;
+    margin-top: 8px;
+    margin-left: 18px;
+}
+
+.btn-group {
+    margin-left: 70%;
+}

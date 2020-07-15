@@ -1,19 +1,23 @@
-.jumbotron {
+body {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.device {
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.sensor {
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.btn-primary {
+    margin-left: 85%;
+}
+
+a {
     color: white;
-    background-color: #0066cc;
-    height: 100vh;
+    text-decoration: none;
 }
 
-h1,
-h2,
-p {
-    text-align: center;
-}
-
-#about {
-    height: 60vh;
-}
-
-#about p {
-    margin-top: 20%;
-}
